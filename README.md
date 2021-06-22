@@ -1,5 +1,5 @@
 # Lead Interview Questions
-## Behaviorial
+## Behaviorial - 20
 * Tell me about your professional life. How does your experiences and career ambitions make you a good fit for this position?
 * Tell me about a cloud based program where you were responsible for architecture and/or code development. What tools, methods and coding languages were utilized and why?
 * Please give an example of a complex cloud problem effecting a production environment you have solved. What was the problem? What was your role? How did you go about solving it? What were the favorable outcomes as a result of your involvement?
@@ -8,11 +8,11 @@
 * This is a remote position and team members are spread across ACS and client sites through several timezones.  What is your experience working within a remote team? What techniques and technologies do you use to collaborate successfully in this type of environment?
 
 ## Technical
-### Container Demo
+### Container Demo - 5
 * Have the candidate build the image (docker build -t image hello .)
 * Have the candidate run the image (docker run hello)
 * Have the candidate show the logs (docker logs)
-### General
+### General - 10
 * What is immutable infrastructure / benefits of? 
     * Immutable infrastructure can't be updated in place
     * Candidate should be able to explain pros/cons of immutable vs. having to maintain running infra
@@ -33,7 +33,7 @@
     * Continuous Deployment goes one step further than Continuous Delivery and would be a fully automated pipeline that deploys and validates all the way through production.
 
 # Developer Interview Questions
-## Behaviorial
+## Behaviorial - 20
 * Tell me about your professional life. How does your experiences and career ambitions make you a good fit for this position?
 * Tell me about a cloud based program where you were responsible for architecture and/or code development. What tools, methods and coding languages were utilized and why?
 * Please give an example of a complex cloud problem effecting a production environment you have solved. What was the problem? What was your role? How did you go about solving it? What were the favorable outcomes as a result of your involvement?
@@ -42,7 +42,7 @@
 * This is a remote position and team members are spread across ACS and client sites through several timezones.  What is your experience working within a remote team? What techniques and technologies do you use to collaborate successfully in this type of environment?
 
 ## Technical
-### Container Demo
+### Container Demo - 25
 * Have the candidate build the image (docker build -t image hello .)
 * Have the candidate run the image (docker run hello)
 * Have the candidate show the logs (docker logs)
@@ -52,7 +52,7 @@
     * You would need to modify the script to not exit or rerun the image as follows ```docker run -it --entrypoint bash hello```
 * How would you set the container up to allow interaction with the local filesystem?
     * Use the -v flag to define the local mount point and where it should appear in the container
-### General
+### General - 5
 * What is immutable infrastructure / benefits of? 
     * Immutable infrastructure can't be updated in place
     * Candidate should be able to explain pros/cons of immutable vs. having to maintain running infra

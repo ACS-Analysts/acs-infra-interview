@@ -2,7 +2,7 @@
 ## Behaviorial - 20
 * Tell me about your professional life. How does your experiences and career ambitions make you a good fit for this position?
 * Tell me about a cloud based program where you were responsible for architecture and/or code development. What tools, methods and coding languages were utilized and why?
-* Please give an example of a complex cloud problem effecting a production environment you have solved. What was the problem? What was your role? How did you go about solving it? What were the favorable outcomes as a result of your involvement?
+* Please give an example of a complex cloud problem affecting a production environment you have solved. What was the problem? What was your role? How did you go about solving it? What were the favorable outcomes as a result of your involvement?
 * Please describe a technically innovative initiative where you were integral part in the design, build and/or implementation. What was the project? What was innovative about it? What was your role? What was the outcome?
 * In this role, sometimes unrealistic requests are made of us. It could be functionally impossible or overly aggressive timeline given resources available. Help us understand how you go about managing expectations with leaders in your company when they ask the impossible.
 * This is a remote position and team members are spread across ACS and client sites through several timezones.  What is your experience working within a remote team? What techniques and technologies do you use to collaborate successfully in this type of environment?
@@ -36,7 +36,7 @@
 ## Behaviorial - 20
 * Tell me about your professional life. How does your experiences and career ambitions make you a good fit for this position?
 * Tell me about a cloud based program where you were responsible for architecture and/or code development. What tools, methods and coding languages were utilized and why?
-* Please give an example of a complex cloud problem effecting a production environment you have solved. What was the problem? What was your role? How did you go about solving it? What were the favorable outcomes as a result of your involvement?
+* Please give an example of a complex cloud problem affecting a production environment you have solved. What was the problem? What was your role? How did you go about solving it? What were the favorable outcomes as a result of your involvement?
 * Please describe a technically innovative initiative where you were integral part in the design, build and/or implementation. What was the project? What was innovative about it? What was your role? What was the outcome?
 * In this role, sometimes unrealistic requests are made of us. It could be functionally impossible or overly aggressive timeline given resources available. Help us understand how you go about managing expectations with leaders in your company when they ask the impossible.
 * This is a remote position and team members are spread across ACS and client sites through several timezones.  What is your experience working within a remote team? What techniques and technologies do you use to collaborate successfully in this type of environment?

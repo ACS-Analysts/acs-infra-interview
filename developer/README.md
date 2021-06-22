@@ -6,3 +6,4 @@ Hello William
 ```
 * Be prepared to answer questions regarding the demo
 
+Note, I didn't get a chance to test the Python script so you may need to debug it before it works completely.

@@ -1,7 +1,7 @@
 def my_decorator(func):
     def wrapper(*args, **kwargs):
         func(*args, **kwargs)
-    return wrapper
+    return wrapper()
 
 @my_decorator
 def hello(name):

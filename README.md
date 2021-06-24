@@ -20,7 +20,7 @@ Thanks!
 # Interview Questions
 
 ## Lead Interview Questions
-### Behaviorial - 20
+### Behavioral - 20
 * Tell me about your professional life. How does your experiences and career ambitions make you a good fit for this position?
 * Tell me about a cloud based program where you were responsible for architecture and/or code development. What tools, methods and coding languages were utilized and why?
 * Please give an example of a complex cloud problem affecting a production environment you have solved. What was the problem? What was your role? How did you go about solving it? What were the favorable outcomes as a result of your involvement?
@@ -54,7 +54,7 @@ Thanks!
     * Continuous Deployment goes one step further than Continuous Delivery and would be a fully automated pipeline that deploys and validates all the way through production.
 
 ## Developer Interview Questions
-### Behaviorial - 20
+### Behavioral - 20
 * Tell me about your professional life. How does your experiences and career ambitions make you a good fit for this position?
 * Tell me about a cloud based program where you were responsible for architecture and/or code development. What tools, methods and coding languages were utilized and why?
 * Please give an example of a complex cloud problem affecting a production environment you have solved. What was the problem? What was your role? How did you go about solving it? What were the favorable outcomes as a result of your involvement?

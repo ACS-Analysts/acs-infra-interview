@@ -22,24 +22,41 @@ Thanks!
 ## Lead Interview Questions
 ### Behavioral - 20
 * Tell me about your professional life. How does your experiences and career ambitions make you a good fit for this position?
-* Tell me about a cloud based program where you were responsible for architecture and/or code development. What tools, methods and coding languages were utilized and why?
+* Please describe a technically innovative project where you led the architecture, build and/or implementation. What was the project? What was innovative about it? What was your role? What was the outcome?  What tools, methods, and coding languages were used?
 * Please give an example of a complex cloud problem affecting a production environment you have solved. What was the problem? What was your role? How did you go about solving it? What were the favorable outcomes as a result of your involvement?
-* Please describe a technically innovative initiative where you were integral part in the design, build and/or implementation. What was the project? What was innovative about it? What was your role? What was the outcome?
 * In this role, sometimes unrealistic requests are made of us. It could be functionally impossible or overly aggressive timeline given resources available. Help us understand how you go about managing expectations with leaders in your company when they ask the impossible.
 * This is a remote position and team members are spread across ACS and client sites through several timezones.  What is your experience working within a remote team? What techniques and technologies do you use to collaborate successfully in this type of environment?
 
 ### Technical
-#### Container Demo - 5
+#### Container Demo - 10
 * Have the candidate build the image (docker build -t image hello .)
 * Have the candidate run the image (docker run hello)
 * Have the candidate show the logs (docker logs)
-#### General - 10
-* What is immutable infrastructure / benefits of? 
+#### General - 20
+* What is immutable infrastructure and it's benefits? 
     * Immutable infrastructure can't be updated in place
     * Candidate should be able to explain pros/cons of immutable vs. having to maintain running infra
-* How do Edge Computing and IoT relate to one another / benefits of Edge Computing?
-    * IoT is the Internet of Things and refers to the myriad of inter-connected devices that can be used in a solution and edge computing brings computational power closer to the devices
-    * Candidate should describe the benefits of Edge Computing (eg. cost/latency by processing data at the edge)
+* What is the difference between object storage and traditional block storage?
+    * Object storage makes data accessible as files (with metadata) where block storage allocates a portion of the disk for a particular use.
+    * Objects have a UUID and are stored in a flat structure
+    * In a FS you you tools like fdisk to manage blocks of a consistent size
+    * In object storage you only need to worry about the file (or object) and metadata which are typicall accessed via a web based API
+* What happens when you type 'google.com' into a browser and press Enter?
+    * Differentiate between search term and web site
+    * DNS resolution on IP address (cache or query DNS)
+    * Browser initiates a TCP connection with the destination (port 80)
+    * Assume GET http:// on the destination
+    * Build payload including headers (eg. host for anything running multiple sites) and send to destination
+    * Receive a 301 redirect and follow https://www.google.com/
+    * Same process but this time will use TLS, verify the cert, encrypt traffic, etc.
+      * Verify server cert through trusted CA
+      * Negotiate key exchange for data encryption
+      * Send/receive with encryption
+* What is a CI/CD pipeline and when should you use one?
+    * Continuous Integration / Continuous Delivery (or Deployment) is a set of best practices that ensure code changes are validated and deployed frequently.
+    * CI triggers the build process whenever new code changes are detected and would include unit tests to find defects as early in the process as possible.
+    * Continuous Delivery begins _after_ CI and is concerned with deploying code to particular environments.  It could be thought of as an automated release process.
+    * Continuous Deployment goes one step further than Continuous Delivery and would be a fully automated pipeline that deploys and validates all the way through production.
 * What is CloudFormation / benefits of?
     * Declarative IaC provided by AWS to automate resource provisioning
     * Candidate should be able to describe common features and benefits like using JSON/YAML, templating, customization through parameters, etc.
@@ -47,12 +64,9 @@ Thanks!
     * Resource X is dependent on Resource Y, and Resource Y is dependent on Resource X.
     * The first step is to examine the resources that are outlined and make sure that AWS CloudFormation can determine what resource order it should take.
     * To resolve a dependency error, add a DependsOn attribute to resources that depend on other resources in your template.
-* What is a CI/CD pipeline and when should you use one?
-    * Continuous Integration / Continuous Delivery (or Deployment) is a set of best practices that ensure code changes are validated and deployed frequently.
-    * CI triggers the build process whenever new code changes are detected and would include unit tests to find defects as early in the process as possible.
-    * Continuous Delivery begins _after_ CI and is concerned with deploying code to particular environments.  It could be thought of as an automated release process.
-    * Continuous Deployment goes one step further than Continuous Delivery and would be a fully automated pipeline that deploys and validates all the way through production.
-
+* How do Edge Computing and IoT relate to one another / benefits of Edge Computing?
+    * IoT is the Internet of Things and refers to the myriad of inter-connected devices that can be used in a solution and edge computing brings computational power closer to the devices
+    * Candidate should describe the benefits of Edge Computing (eg. cost/latency by processing data at the edge)
 ## Developer Interview Questions
 ### Behavioral - 20
 * Tell me about your professional life. How does your experiences and career ambitions make you a good fit for this position?
